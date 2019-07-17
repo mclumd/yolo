@@ -14,8 +14,10 @@ Requirements
 
 Installation
 ---------
-
-To install, run `sudo python setup.py install`.
+`cd ~\path\to\pyfreenect2`
+You need libfreenect2 installed
+Try `sudo ln -s $HOME/freenect2/lib/libfreenect2.so.0.2.0 /usr/lib/libfreenect2.so` or check out [this issue]https://github.com/remexre/pyfreenect2/issues/11
+`sudo python setup.py install`.
 
 Usage
 ---------
