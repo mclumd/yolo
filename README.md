@@ -16,7 +16,7 @@ Installation
 ---------
 `cd ~\path\to\pyfreenect2`
 
-You need libfreenect2 installed
+You need libfreenect2 installed, and also download [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) and put it in the `/examples` dir.
 
 Try `sudo ln -s $HOME/freenect2/lib/libfreenect2.so.0.2.0 /usr/lib/libfreenect2.so` or check out [this issue](https://github.com/remexre/pyfreenect2/issues/11)
 
