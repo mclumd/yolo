@@ -1,4 +1,4 @@
-pyfreenect2
+Yolo detection for kinectv2
 ===========
 
 Python bindings to [libfreenect2](https://github.com/OpenKinect/libfreenect2).
@@ -29,14 +29,4 @@ Try `sudo ln -s $HOME/freenect2/lib/libfreenect2.so.0.2.0 /usr/lib/libfreenect2.
 Usage
 ---------
 
-For usage, see `test.py`.
-
-
-TODO List
----------
- * ~~Make `test.py` actually display the frames~~
- * Implement Registration.apply (in py_Registration_apply)
- * Make the pipeline argument of Freenect2Device's constructor actually do something
- * Test everything
-
-You can probably find more TODOs in [Issues](https://github.com/tikiking1/pyfreenect2/issues) or by `grep -R TODO .`.
+Navigate to the `examples` directory, then `python run.py`
