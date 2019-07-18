@@ -18,6 +18,10 @@ Installation
 
 You need libfreenect2 installed, and also download [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) and put it in the `/examples` dir.
 
+Add `export LD_LIBRARY_PATH=$HOME/freenect2/lib:$LD_LIBRARY_PATH` to your `~/.bashrc` file.
+
+`pip install scipy opencv-python`, use `sudo` if necessary.
+
 Try `sudo ln -s $HOME/freenect2/lib/libfreenect2.so.0.2.0 /usr/lib/libfreenect2.so` or check out [this issue](https://github.com/remexre/pyfreenect2/issues/11)
 
 `sudo python setup.py install`.
