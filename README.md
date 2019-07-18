@@ -1,7 +1,7 @@
 Yolo detection for kinectv2
 ===========
 
-Python bindings to [libfreenect2](https://github.com/OpenKinect/libfreenect2).
+Using [pyfreenect2](https://github.com/remexre/pyfreenect2)
 
 Requirements
 ---------
@@ -16,7 +16,7 @@ Installation
 ---------
 `cd ~\path\to\pyfreenect2`
 
-You need `libfreenect2` installed, and also download [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) and put it in the `/examples` dir.
+You need [libfreenect2](https://github.com/OpenKinect/libfreenect2) installed, and also download [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) and put it in the `/examples` dir.
 
 For `libfreenect2`, go to the `build` directory and run `sudo cp ../platform/linux/udev/90-kinect2.rules /etc/udev/rules.d/`
 
