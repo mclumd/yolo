@@ -31,5 +31,6 @@ Try `sudo ln -s $HOME/freenect2/lib/libfreenect2.so.0.2.0 /usr/lib/libfreenect2.
 
 Usage
 ---------
+Every time the computer restarts, unplug and replug the kinect ([Issue](https://github.com/OpenKinect/libfreenect2/issues/870)).
 
 Navigate to the `examples` directory, then `python run.py`
